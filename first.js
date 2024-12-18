@@ -1,1 +1,1 @@
-console.log("Hey asmiii")
+console.log("Hola, I'm learning JavaScript")
