@@ -27,10 +27,11 @@ console.log(bigNum)
     age: 21,
  } 
 
+ console.log(typeof myfunction)  // function 
+ console.log(heros)  // object
 
 
  const myfunction = function(){
     console.log("Hello World")
  }
 
- 
