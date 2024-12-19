@@ -1,6 +1,6 @@
 // use const and let always
 const accountId = 12145  
-let accountEmail = "asmio@gamil.com"
+let accountEmail = "aabcio@gamil.com"
 
 var password = "sdffds98"  
 city = "jaipur"  // it allow but don't prefer
