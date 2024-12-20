@@ -78,3 +78,25 @@ const debitCard = true;
 if(isUserLogged && debitCard){
     console.log("Allow to buy course ")
 }
+
+if(5==5 || 8 > 10){
+    console.log("inside if")
+}
+
+
+// Nullish Coalescing Operator (??) : null undefined
+
+let val1;
+// val1 = 5 ?? 10
+// val1 = null ?? 10
+// val1 = undefined ?? 10
+val1 = null ?? 10 ?? 15
+console.log(val1)
+
+// Terniary Operator
+
+// condition ? true : false
+
+const price = 100
+
+price >= 80 ? console.log("greater than 80") : console.log("less than 80")
