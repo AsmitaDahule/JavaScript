@@ -37,6 +37,12 @@ console.log(map)
 // }
 
 
+
+// for(const key in map){
+//     console.log(key);
+// }
+
+
 // const myObj = {
 //     'game1':'NFS',
 //     'game2':"Spiderman"
