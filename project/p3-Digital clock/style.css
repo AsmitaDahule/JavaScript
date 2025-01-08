@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; /* Modern font */
+    background: linear-gradient(135deg, #1d1e26, #3a3b44);
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Center Container */
+.center {
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+/* Banner Styling */
+#banner {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #f8f9fa;
+}
+
+/* Clock Styling */
+#clock {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #f9f871;
+    letter-spacing: 5px;
+    /* text-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 
+                 0 0 30px rgba(255, 255, 0, 0.7),
+                 0 0 40px rgba(255, 255, 0, 0.6); */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #clock {
+        font-size: 3rem;
+    }
+    #banner {
+        font-size: 1.2rem;
+    }
+}
