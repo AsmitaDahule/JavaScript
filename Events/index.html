@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event in JS</title>
+</head>
+<body style="background-color: black; color: antiquewhite;">
+    <div>
+        <ul>
+            <li id="im"><img src="img1.png" height="100px"></li>
+            <li id="im2"><img src="img2.png" height="100px"></li>
+            <li id="im3"><img src="img3.png" height="100px"></li>
+            <li id="im4"><img src="img4.png" height="100px"></li>
+        </ul>
+    </div>
+</body>
+<script>
+    document.getElementById('im').addEventListener('click',function(){
+        alert("clicked image 1");
+    })
+
+</script>
+</html>
